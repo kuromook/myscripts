@@ -1,5 +1,5 @@
 
-Robocopy "c:\2022" "d:\2022" /MIR /FFT /Z  /W:5
+@echo off
 Robocopy "C:\Users\sh1\AppData\Roaming" "D:\backup\editor" .spacemacs
 Robocopy "C:\Users\sh1\AppData\Roaming\.emacs.d" "D:\backup\editor\.emacs.d" /MIR /FFT /Z  /W:5
 Robocopy "C:\tool\cmder" "D:\backup\cmder" /MIR /FFT /Z  /W:5

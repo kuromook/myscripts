@@ -1,4 +1,4 @@
 @echo off
-robocopy c:/2019b //10.0.1.2/share/2019b /MIR /fft
+Robocopy "c:\2022" "d:\2022" /MIR /FFT /Z  /W:5
 
 
